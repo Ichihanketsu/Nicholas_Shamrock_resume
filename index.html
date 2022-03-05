@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+
+    <!-- Creating style sheets which has google fonts and calls fontawesome -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Shamrock CV</title>
+</head>
+
+<!-- Creating a body tag with all information -->
+<body>
+    
+    <!-- Creating main with class wrapper which has images and headings -->
+    <main class="wrapper">
+        <section class="hero">
+            <img class="image" src="images/photo.png" alt="">
+            <h1>Nicholas Shamrock</h1>
+            <h2>Curriculumn Vitae</h2>
+        </section>
+
+        <!-- Creating a spacer which breaks information -->
+        <section class="spacer"> </section>
+
+        <!-- Creating first grid parent which is the first section of information seperating in columns in a ration 1:2 which uses custom bullets and has paragraphs for information -->
+        <div class="grid-parent1">
+            <aside class="details-content">
+                <h3>Details:</h3>
+                <ul type="circle">
+                    <li><b>Fullname:</b> Nicholas Shamrock</li>
+                    <li><b>Contact Number:</b> 064 755 9296</li>
+                    <li><b>Email Address:</b> nicholashamrock@gmail.com</li>
+                    <li><b>Date of Birth:</b> 1995/09/01</li>
+                </ul>
+            </aside>
+            <section class="about-content">
+                <h3>About Me</h3>
+                <p>
+                    I am hard working and good at problem solving, I strive to be the best always adapting to situations and working well under pressure. I have 7 years experience in many different fields, learing unique skills and decided on a career change as I have always been passionated about computers and gaining new knowlegde.
+                </p>
+                <p>
+                    Always motivated to give it my best even if I am uncomfortable or forced to learn something new, I find satisfaction in finishing off a project to a high standard as I can be abit of a perfectionist.
+                </p>
+            </section>
+        </div>
+
+        <!-- Creating the second grid parent which splits information in a ration of 1:1:2 and shows Skills/Education/Work Experience which makes use if lists and bullets -->
+        <div class="grid-parent2">
+            <section class="skill-content">
+                <h3>Skills</h3>
+                <ul type="circle" class="column">
+                    <li>Information Technology</li>
+                    <li>AutoCAD</li>
+                    <li>Autodesk Fusion 360</li>
+                    <li>Typescript</li>
+                    <li>Problem Solving</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Github</li>
+                    <li>Gitlab</li>
+                    <li>MySql</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Firebase</li>
+                    <li>Angular</li>
+                </ul>
+            </section>
+
+            <section class="education-content">
+                <h3>Education</h3>
+                <ul type="circle">
+                    <li><b>Matric</b></li>
+                    <ul type="square">
+                        <li>Matriculated 2013</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>Professional Drafting services</b></li>
+                    <ul type="square">
+                        <li >Qualified Mechanical Draftsman</li>
+                        <li>Fundamentals on Architecture, Structural, Piping, Electrical Drafting.</li>
+                        <li>Period (2014 - 2016)</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>Hyperion Development</b></li>
+                    <ul type="square">
+                        <li >Software Engineering</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Period (2021 - Current)</li>
+                    </ul>  
+                </ul>
+            </section>
+
+            <sectiion class="work-content">
+                <h3>Work Experience</h3>
+                <ul type="circle">
+                    <li><b>3@1 Clearwater Mall</b></li>
+                    <ul type="square">
+                        <li>Manager Position, Large Format Printing, Book Binding, Laminating.</li>
+                        <li>Period (Feb/2015 - May/2016)</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>I & E Models</b></li>
+                    <ul type="square">
+                        <li >Drafting for laser cutting, Assembly, Scale Engineering Models, Carpentry, Production.</li>
+                        <li>Period (May/2016 - Feb/2017)</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>Aerocreations</b></li>
+                    <ul type="square">
+                        <li > 3D Modeling for 3D Printing, Drafting for laser cutting, Assembly, Scale Engineering Models, Carpentry, Production.</li>
+                        <li>Period (Feb/2019 - Dec/2019)</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>Sprocket and Jack</b></li>
+                    <ul type="square">
+                        <li >High End Bicycle Mechanic, Suspension servicing and Wheel Builder.</li>
+                        <li>Period (Mar/2017 - Jan/2019)</li>
+                        <li>Period (Jan/2020 - Dec/2021)</li>
+                    </ul>  
+                </ul>
+                <ul type="circle">
+                    <li><b>Bike Market</b></li>
+                    <ul type="square">
+                        <li >Software Engineering, Angular and Firebase.</li>
+                        <li>Period (Jan/2022 - Current)</li>
+                    </ul>  
+                </ul>
+            </sectiion>
+        </div>
+
+
+        <!-- Creating third grid parent which makes use of links formatted as red buttons to take the viewer to the webpage if project, makes use of list and bullets -->
+        <div class="grid-parent3">
+            <section class="project-content">
+                <h3>Previous Project</h3>
+                <ul type="circle">
+                    <li><a class="red" href="https://github.com/Ichihanketsu/pygame.git " target="_blank">Pygame Task</a></li>
+                        <ul>
+                            <li type="square">This game was the funnest project at Hyperion Development, we had to make a game with 1 character and 3 eneimies that you have to dodge to get the prize.</li>
+                        </ul>
+                    <li><a class="red" href="https://github.com/Ichihanketsu/ProjectManagement.java.git" target="_blank">Poised Project Management</a></li>
+                        <ul>
+                            <li type="square">Poised Project Management is a project that allows for data on projects and contacts to be inputted by a user and saves to text files. It's used to manage Production of buildings.</li>
+                        </ul>
+                </ul>
+            </section>
+        </div>
+        
+        <!-- Creating a spacer which breaks information -->
+        <section class="spacer"> </section>
+
+        <!-- Creating a Foorter which displays information with icons called from fontawesome, opens a new tab when clicked -->
+        <footer class="footer">
+            <div class="social">
+              <a href="https://www.facebook.com/nicholas.shamrock.1/" target="_blank"><i class="fab fa-facebook fa-2x" ></i></a>
+              <a href="https://www.instagram.com/nico_sham/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x" ></i></a>
+              <a href="https://wa.me/27647559296" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/nicholas-shamrock-6568a1128/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Copyright &copy; 2022 - Nicholas Shamrock</p>
+          </footer>
+
+    </main>
+</body>
+</html>
+
+<!-- 
+_________________________________________________________________________________________________________________________
+ References:
+- Hyperion Dev SE L3T16 - HTML Overview 
+
+-->
